@@ -14,7 +14,7 @@ $ git commit -m "Added ss5 submodule"
 As the `ssg5` submodule file is configured as `chmod +x`, now you are able use locally:
 
 ```
-$ ./ssg5/ssg5 src dist "Your Title" ./
+$ ./ssg5/ssg5 src dst "Your Title" ./
 ```
 
 
