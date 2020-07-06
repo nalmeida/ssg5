@@ -18,5 +18,13 @@ $ ./ssg5/ssg5 src dst "Your Title" ./
 
 It is very useful to have it as a submodule in order to deploy it to some sort of static site platform like **Netlify**.
 
+# Updating
+
+In order to update the `ssg5` submodule, rund:
+
+```
+$ git submodule update --recursive --remote
+```
+
 
 
