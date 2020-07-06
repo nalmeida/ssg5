@@ -8,7 +8,6 @@ One ease way to install it in your project is as a `git submodule`. In your proj
 
 ```
 $ git submodule add https://github.com/nalmeida/ssg5 ssg5
-$ git commit -m "Added ss5 submodule"
 ```
 
 As the `ssg5` submodule file is configured as `chmod +x`, now you are able use locally:
@@ -16,6 +15,8 @@ As the `ssg5` submodule file is configured as `chmod +x`, now you are able use l
 ```
 $ ./ssg5/ssg5 src dst "Your Title" ./
 ```
+
+It is very useful to have it as a submodule in order to deploy it to some sort of static site platform like **Netlify**.
 
 
 
