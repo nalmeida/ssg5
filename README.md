@@ -26,5 +26,7 @@ In order to update the `ssg5` submodule, rund:
 $ git submodule update --recursive --remote
 ```
 
+## Sample project
 
+Sample project: https://github.com/nalmeida/ssg5-test
 
